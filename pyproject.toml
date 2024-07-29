@@ -25,14 +25,14 @@ llmstack = "llmstack.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-aiohttp = {version = "3.8.4", allow-prereleases = true}
+aiohttp = {version = "3.9.4", allow-prereleases = true}
 aiosignal = {version = "1.3.1", allow-prereleases = true}
 anyio = {version = "3.6.2", allow-prereleases = true}
 asgiref = {version = "3.6.0", allow-prereleases = true}
 async-timeout = {version = "4.0.2", allow-prereleases = true}
 attrs = {version = "22.2.0", allow-prereleases = true}
 autobahn = {version = "23.1.2", allow-prereleases = true}
-authlib = {version = "1.2.0", allow-prereleases = true}
+authlib = {version = "1.3.1", allow-prereleases = true}
 automat = {version = "22.10.0", allow-prereleases = true}
 backoff = {version = "2.2.1", allow-prereleases = true}
 chardet = {version = "5.2.0", platform = "windows", allow-prereleases = true}
@@ -43,25 +43,25 @@ click = {version = "8.1.3", allow-prereleases = true}
 constantly = {version = "15.1.0", allow-prereleases = true}
 daphne = {version = "4.0.0", allow-prereleases = true}
 defusedxml = {version = "0.7.1", allow-prereleases = true}
-django = {version = "4.2.1", allow-prereleases = true}
+django = {version = "4.2.14", allow-prereleases = true}
 django-allauth = {version = "0.52.0", allow-prereleases = true}
 django-environ = {version = "0.10.0", allow-prereleases = true}
 django-picklefield = {version = "3.1", allow-prereleases = true}
 django-redis = {version = "5.2.0", allow-prereleases = true}
 django-rq = {version = "2.7.0", allow-prereleases = true}
-djangorestframework = {version = "3.14.0", allow-prereleases = true}
+djangorestframework = {version = "3.15.2", allow-prereleases = true}
 django-flags = {version = "5.0.12", allow-prereleases = true}
-gunicorn = {version = "20.1.0", allow-prereleases = true}
+gunicorn = {version = "22.0.0", allow-prereleases = true}
 h11 = {version = "0.14.0", allow-prereleases = true}
 h2 = {version = "4.1.0", allow-prereleases = true}
 httpcore = {version = "0.16.3", allow-prereleases = true}
 httptools = {version = "0.5.0", allow-prereleases = true}
 httpx = {version = "0.23.3", allow-prereleases = true}
 hyperlink = {version = "21.0.0", allow-prereleases = true}
-idna = {version = "3.4", allow-prereleases = true}
+idna = {version = "3.7", allow-prereleases = true}
 importlib-metadata = {version = "6.0.0", allow-prereleases = true}
 incremental = {version = "22.10.0", allow-prereleases = true}
-jinja2 = {version = "3.1.2", allow-prereleases = true}
+jinja2 = {version = "3.1.4", allow-prereleases = true}
 joblib = {version = "1.2.0", allow-prereleases = true}
 jsonschema = {version = "4.17.3", allow-prereleases = true}
 lz4 = {version = "4.3.2", allow-prereleases = true}
@@ -86,14 +86,14 @@ rq = {version = "1.15.1", allow-prereleases = true}
 sendgrid = {version = "6.10.0", allow-prereleases = true}
 service-identity = {version = "21.1.0", allow-prereleases = true}
 sqlalchemy = {version = "1.4.46", allow-prereleases = true}
-sqlparse = {version = "0.4.3", allow-prereleases = true}
+sqlparse = {version = "0.5.0", allow-prereleases = true}
 tenacity = {version = "8.2.2", allow-prereleases = true}
 typer = {version = "0.7.0", allow-prereleases = true}
 typing-inspect = {version = "0.8.0", allow-prereleases = true}
 typing-extensions = {version = "4.5.0", allow-prereleases = true}
 twisted = {version = "22.10.0", allow-prereleases = true}
 txaio = {version = "23.1.1", allow-prereleases = true}
-urllib3 = {version = "1.26.13", allow-prereleases = true}
+urllib3 = {version = "1.26.19", allow-prereleases = true}
 uvicorn = {version = "0.21.0", allow-prereleases = true}
 uvloop = [
   {version = "0.17.0", allow-prereleases = true, platform = "darwin" },
@@ -104,7 +104,7 @@ websockets = {version = "10.4", allow-prereleases = true}
 yarl = {version = "1.8.2", allow-prereleases = true}
 zope-interface = {version = "6.0", allow-prereleases = true}
 ujson = {version = "5.7.0", allow-prereleases = true}
-orjson = {version = "3.8.14", allow-prereleases = true}
+orjson = {version = "3.9.15", allow-prereleases = true}
 beautifulsoup4 = {version = "4.12.2", allow-prereleases = true}
 django-jsonform = {version = "2.17.4", allow-prereleases = true}
 playwright = {version = "1.35.0", allow-prereleases = true}
@@ -112,7 +112,7 @@ geoip2 = {version = "4.7.0", allow-prereleases = true}
 weaviate-client = {version = "3.22.1", allow-prereleases = true}
 google-auth = {version = "2.22.0", allow-prereleases = true}
 pynacl = {version = "1.5.0", allow-prereleases = true}
-scrapy = "2.11.0"
+scrapy = "2.11.2"
 unstructured = {version = "0.9.0", allow-prereleases = true}
 spacy = {version = "3.6.0", allow-prereleases = true}
 striprtf = {version = "0.0.22", allow-prereleases = true}
